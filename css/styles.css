@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 1.15em;
+}
+
+#survey {
+  font-size: 1.25em;
+}
+
+.surveyquest label, button {
+  margin-top: 20px;
+}
+
+#resultSnow, #resultHate, #resultExplore {
+  margin-top: 30px;
+  display: none;
+}
+
+.img-responsive {
+  padding: 5px;
+  max-width: 750px;
+  max-height: auto;
+}

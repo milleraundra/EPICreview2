@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>RV Destinations</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <header class="page-header">
+        <h1>Winter RV Travels</h1>
+      </header>
+      <div class="">
+        <h2>Where Should you Go this Winter?</h2>
+        <p>
+          The winter season is not usually thought of as a time to roll out your motorhome and take a vacation. However, these cold, brisk months are ideal for all kinds of exciting RV travel! To find out which thrilling destination is suitable to you, fill out our simple survey below:
+        </p>
+      </div>
+
+      <form class="form-horizontal" id="survey">
+
+        <div class="surveyquest">
+          <label for="temperature">1. How comfortable are you in cold temperatures?</label><br>
+          <input type="radio" name="temperature" value="love"> I love the cold! <br>
+          <input type="radio" name="temperature" value="not_long"> I enjoy the cold, but not for a long time. <br>
+          <input type="radio" name="temperature" value="brave"> I don't prefer the cold, but I brave it occassionally.<br>
+          <input type="radio" name="temperature" value="hate"> I hate and avoid cold weather. <br>
+        </div>
+
+        <div class="surveyquest">
+          <label for="experience">2. Have you ever been winter RVing before?</label>
+          <select name="experience">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+
+        <div class="surveyquest">
+          <label for="package">3. Is your RV equipped with an arctic package?</label>
+          <select name="package">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option value="unknown">Unknown</option>
+          </select>
+        </div>
+
+        <div class="surveyquest">
+          <label for="time">4. What would you rather do while on vacation?</label><br>
+            <input type="radio" name="time" value="eat"> Eat lots of food. <br>
+            <input type="radio" name="time" value="sleep"> Sleep in and relax. <br>
+            <input type="radio" name="time" value="hike"> Hike and explore. <br>
+            <input type="radio" name="time" value="sights"> See the local sights. <br>
+            <input type="radio" name="time" value="sports"> Sports and activities!
+        </div>
+
+        <div class="surveyquest">
+          <label for="supplies">5. Are you willing to splurge on winter necessities for your RV?</label>
+          <select name="supplies">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+
+        <button class="btn" type="submit" name="button">Submit Survey</button>
+      </form>
+
+      <div id="resultSnow">
+        <h2>You should go to:</h2>
+        <h3>Tiger Run RV Resort, CO</h3>
+        <img class="img-responsive" src="img/tigerRunResort.jpg" alt="Tiger Run Resort Skiing" />
+        <p>Located in Breckenridge, CO, this impressive RV resort boasts of nearly 200 RV accomodations and provides the best access to the slopes. If your the type who likes to gear up and hit the slopes, this is the place for you. RV camping is the ideal way to get in plenty of fun and activity while the snow lasts. Tiger Run is famous for their reasonable rates, quality facilities, and impressive local brewery. Get out and enjoy the weather while it still lasts!</p>
+      </div>
+
+      <div id="resultHate">
+        <h2>You should go to:</h2>
+        <h3>The Great Outdoors Golf Resort, FL</h3>
+        <img class="img-responsive" src="img/golfResort.jpg" alt="The Great Outdoors Golf Resort" />
+        <p>Located in Titusville, Florida, this location avoids the hassle and cold that winter always brings. With numerous RV sites, full hookups, and a surplus of recreational facilities, you can enjoy a relaxing winter vacation away from the ice and snow. Splash around in a heated pool, relax in the sauna, work up a sweat in the gym, or enjoy some nearby nature trails. Do what you love, whenever you like here at The Great Outdoors. </p>
+      </div>
+
+      <div id="resultExplore">
+        <h2>You should go to:</h2>
+        <h3>Cape Disappointment State Park, WA</h3>
+        <img class="img-responsive" src="img/capeDisappointment.jpg" alt="Cape Disappointment" />
+        <p>"Located by the Columbia River bar on the southern border of Washington, Cape Disappointment is anything but disappointing. The campground itself has ample room for RVs, especially during these winter months, and the facilities are convenient and clean. The forested area is beautiful, scattered with rock pillars—some reaching several stories tall—that lead from the campgrounds to the beach. The wind-swept shore is breathtaking at any time of the year, with silver sands, crashing waves, and towering black rock cliffs to the north. - See more <a href="http://www.kirklandrvsales.com/3-best-winter-rv-vacation-destinations/#sthash.0AThfc43.dpuf">here.</a>"</p>
+      </div>
+
+
+
+
+
+    </div>
+  </body>
+</html>
