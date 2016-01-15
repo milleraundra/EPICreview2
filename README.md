@@ -14,7 +14,7 @@ _This simple form can be used to calculate an ideal vacation destination for RV 
 Follow this link:
 
 **To Edit:**
-1. Fork this GitHub repository.
+1. Fork this GitHub repository: https://github.com/milleraundra/EPICreview2
 2. Clone the repository to your local drive.
 3. Make desired changes.
 
