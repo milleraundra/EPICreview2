@@ -1,7 +1,7 @@
 $(function() {
 
   $('#survey').submit(function(event) {
-    // debugger;
+
     var temperature = $('#temperature').val();
     var necessities = $('#necessities').val();
     var clothes = $('#clothes').val();
@@ -10,13 +10,24 @@ $(function() {
 
     if (temperature !== 'hate' && time !== 'eat' || temperature !== 'hate' && time !== 'sleep'){
 
-      if (necessities === 'no' & supplies === 'no'){
+      if (time === 'hike') {
         $('#resultExplore').show();
-      } else {
-        $('#resultSnow').show();
+        $('#resultSnow, #resultHate').hide();
       }
 
+      else {
 
+        if (necessities === 'no') {
+          $('#RVsupplies').show();
+          $('#resultSnow').show();
+          $('#resultHate, #resultExplore').hide();
+        }
+        else {
+          $('#resultSnow').show();
+          $('#resultHate, #resultExplore').hide();
+        }
+
+      }
     }
 
     else {

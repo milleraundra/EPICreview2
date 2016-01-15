@@ -1,13 +1,23 @@
-h1 {
+body {
+  margin-bottom: 50px;
+}
+
+.container {
+  background-color: #dfbf9f;
+  padding-bottom: 20px;
+}
+
+h1, h2{
   text-align: center;
 }
 
 p {
   font-size: 1.15em;
+  padding: 5px;
 }
 
-#experience ul li {
-  font-size: 0.8em;
+#necessities ul li {
+  font-size: 0.5em;
 }
 
 #survey {
@@ -15,18 +25,22 @@ p {
 }
 select {
   display: block;
+  padding: 3px;
 }
-.surveyquest label, button {
+.surveyquest label {
   margin-top: 20px;
 }
 
-#resultSnow, #resultHate, #resultExplore {
+button {
+  margin: 20px;
+}
+
+#resultSnow, #resultHate, #resultExplore, #RVsupplies{
   margin-top: 30px;
   display: none;
 }
 
 .img-responsive {
   padding: 5px;
-  max-width: 750px;
   max-height: auto;
 }
