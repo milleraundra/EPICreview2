@@ -6,10 +6,16 @@ p {
   font-size: 1.15em;
 }
 
+#experience ul li {
+  font-size: 0.8em;
+}
+
 #survey {
   font-size: 1.25em;
 }
-
+select {
+  display: block;
+}
 .surveyquest label, button {
   margin-top: 20px;
 }

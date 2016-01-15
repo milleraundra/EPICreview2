@@ -16,33 +16,35 @@
         <h1>Winter RV Travels</h1>
       </header>
       <div class="">
-        <h2>Where Should you Go this Winter?</h2>
+        <h2>Where Should You Go This Winter?</h2>
         <p>
-          The winter season is not usually thought of as a time to roll out your motorhome and take a vacation. However, these cold, brisk months are ideal for all kinds of exciting RV travel! To find out which thrilling destination is suitable to you, fill out our simple survey below:
+          The winter season is not usually thought of as a time to roll out your motorhome and take a vacation. However, these cold, brisk months are ideal for all kinds of exciting RV travel! To find out which thrilling destination is suitable for you, fill out our simple survey below:
         </p>
       </div>
 
       <form class="form-horizontal" id="survey">
 
         <div class="surveyquest">
-          <label for="temperature">1. How comfortable are you in cold temperatures?</label><br>
-          <input type="radio" name="temperature" value="love"> I love the cold! <br>
-          <input type="radio" name="temperature" value="not_long"> I enjoy the cold, but not for a long time. <br>
-          <input type="radio" name="temperature" value="brave"> I don't prefer the cold, but I brave it occassionally.<br>
-          <input type="radio" name="temperature" value="hate"> I hate and avoid cold weather. <br>
-        </div>
-
-        <div class="surveyquest">
-          <label for="experience">2. Have you ever been winter RVing before?</label>
-          <select name="experience">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
+          <label  for="temperature">1. How comfortable are you in cold temperatures?</label>
+          <select id="temperature" class="" name="temperature">
+            <option value="love">I love the cold!</option>
+            <option value="not_long">I enjoy the cold, but not for a long time.</option>
+            <option value="brave">I don't prefer the cold, but I brave it occasionally.</option>
+            <option value="hate">I hate and avoid cold weather</option>
           </select>
         </div>
 
         <div class="surveyquest">
-          <label for="package">3. Is your RV equipped with an arctic package?</label>
-          <select name="package">
+          <label  for="necessities">2. Do you have access to winter RV necesities, such as:
+            <ul>
+              <li>Electric heaters</li>
+              <li>Vent covers</li>
+              <li>Shovel</li>
+              <li>Dehumidifiers</li>
+              <li>etc.</li>
+            </ul>
+          </label> <br>
+          <select id="necessities" name="necessities">
             <option value="yes">Yes</option>
             <option value="no">No</option>
             <option value="unknown">Unknown</option>
@@ -50,17 +52,29 @@
         </div>
 
         <div class="surveyquest">
-          <label for="time">4. What would you rather do while on vacation?</label><br>
-            <input type="radio" name="time" value="eat"> Eat lots of food. <br>
-            <input type="radio" name="time" value="sleep"> Sleep in and relax. <br>
-            <input type="radio" name="time" value="hike"> Hike and explore. <br>
-            <input type="radio" name="time" value="sights"> See the local sights. <br>
-            <input type="radio" name="time" value="sports"> Sports and activities!
+          <label for="clothes">3. Do you own good snow clothes?</label>
+          <select id="clothes" name="clothes">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option value="unknown">Unknown</option>
+          </select>
         </div>
 
         <div class="surveyquest">
-          <label for="supplies">5. Are you willing to splurge on winter necessities for your RV?</label>
-          <select name="supplies">
+          <label  for="time">4. What would you rather do while on vacation?</label>
+          <select id="time" class="" name="time">
+            <option value="eat">Eat lots of food.</option>
+            <option value="sleep">Sleep in and relax.</option>
+            <option value="hike">Hike and explore.</option>
+            <option value="sights">See the local sights.</option>
+            <option value="sports">Sports and activities.</option>
+          </select>
+
+        </div>
+
+        <div class="surveyquest">
+          <label for="supplies">5. Are you willing (when necessary) to splurge on winter necessities for you or your RV?</label>
+          <select id="supplies" name="supplies">
             <option value="yes">Yes</option>
             <option value="no">No</option>
           </select>
