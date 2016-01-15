@@ -11,7 +11,7 @@ _This simple form can be used to calculate an ideal vacation destination for RV 
 ## Setup/Installation Requirements
 
 **To View:**
-Follow this link:
+Follow this link:http://milleraundra.github.io/EPICreview2/
 
 **To Edit:**
 1. Fork this GitHub repository: https://github.com/milleraundra/EPICreview2
@@ -33,29 +33,29 @@ _For questions, concerns, or recommendations, contact me directly at miller.aund
 ## Technologies Used
 
 The languages and libraries utilized for this project include:
-*_ HTML
-*_ CSS
-*_ JavaScript
-*_ jQuery
-*_ Bootstrap
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* Bootstrap
 
 ### License
 
-_The MIT License (MIT)
+_The MIT License (MIT)_
 
-Copyright (c) 2016 Aundra Miller
+_Copyright (c) 2016 Aundra Miller_
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
+_Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+furnished to do so, subject to the following conditions:_
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+_The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software._
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+_THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
